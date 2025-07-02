@@ -10,7 +10,10 @@ function CardContent({ children, className }: any) {
 
 function Button({ children, className, ...props }: any) {
   return (
-    <button className={`px-4 py-2 rounded font-semibold transition ${className}`} {...props}>
+    <button
+      className={`px-4 py-2 rounded font-semibold transition ${className}`}
+      {...props}
+    >
       {children}
     </button>
   );
@@ -52,35 +55,44 @@ export default function Home() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-6">
           <Card className="bg-white/80 p-4 border shadow-md">
-            <h3 className="text-lg font-bold text-green-800">Assets Under Confusion</h3>
-            <p className="text-gray-700 text-sm mt-2">$420,690,000 (imaginary)</p>
+            <h3 className="text-lg font-bold text-green-800">
+              Assets Under Confusion
+            </h3>
+            <p className="text-gray-700 text-sm mt-2">
+              $420,690,000 (imaginary)
+            </p>
           </Card>
 
           <Card className="bg-white/80 p-4 border shadow-md">
             <h3 className="text-lg font-bold text-green-800">Memeformance</h3>
-            <p className="text-gray-700 text-sm mt-2">-32% YOY, but morale is up</p>
+            <p className="text-gray-700 text-sm mt-2">
+              -32% YOY, but morale is up
+            </p>
           </Card>
 
           <Card className="bg-white/80 p-4 border shadow-md">
             <h3 className="text-lg font-bold text-green-800">Our Hedgehogs</h3>
-            <p className="text-gray-700 text-sm mt-2">Trained in chaos theory and Photoshop</p>
+            <p className="text-gray-700 text-sm mt-2">
+              Trained in chaos theory and Photoshop
+            </p>
           </Card>
+        </div>
 
-       <div className="flex justify-center gap-4 pt-6">
-  <a
-    href="https://twitter.com/hedge_funs"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2 rounded font-semibold transition"
-  >
-    <span>🚀</span> Twitter
-  </a>
-</div>
+        <div className="flex justify-center gap-4 pt-6">
+          <a
+            href="https://twitter.com/hedge_funs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2 rounded font-semibold transition"
+          >
+            <span>🚀</span> Twitter
+          </a>
+        </div>
 
-                <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
+        <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
           © 2025 HedgeFuns Capital. Not licensed, not responsible, not serious.
         </footer>
-      </div>  {/* closes .max-w-3xl */}
-    </div>    {/* ✅ closes the full-screen container */}
+      </div> {/* closes .max-w-3xl */}
+    </div>   {/* ✅ closes the outermost container */}
   );
 }
