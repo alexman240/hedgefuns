@@ -66,16 +66,16 @@ export default function Home() {
             <p className="text-gray-700 text-sm mt-2">Trained in chaos theory and Photoshop</p>
           </Card>
 
-        <div className="flex justify-center gap-4 pt-6">
-         <a
-  href="https://x.com/hedge_funs"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2 rounded font-semibold transition"
->
-  <span>🚀</span> Twitter
-</a>
-        </div>
+       <div className="flex justify-center gap-4 pt-6">
+  <a
+    href="https://twitter.com/hedge_funs"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2 rounded font-semibold transition"
+  >
+    <span>🚀</span> Twitter
+  </a>
+</div>
 
         <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
           © 2025 HedgeFuns Capital. Not licensed, not responsible, not serious.
