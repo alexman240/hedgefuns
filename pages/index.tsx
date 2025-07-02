@@ -1,5 +1,4 @@
 import React from "react";
-import { RocketIcon, DollarSignIcon, BanknoteIcon } from "lucide-react";
 
 function Card({ children, className }: any) {
   return <div className={`rounded-lg shadow-md ${className}`}>{children}</div>;
@@ -70,13 +69,13 @@ export default function Home() {
 
         <div className="flex justify-center gap-4 pt-6">
           <Button className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2">
-            <RocketIcon className="w-4 h-4" /> Twitter
+            <span>🚀</span> Twitter
           </Button>
           <Button className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2">
-            <BanknoteIcon className="w-4 h-4" /> Meme Vault
+            <span>💰</span> Meme Vault
           </Button>
           <Button className="border border-gray-400 text-gray-800 flex items-center gap-2 px-4 py-2">
-            <DollarSignIcon className="w-4 h-4" /> Whitepaper
+            <span>💵</span> Whitepaper
           </Button>
         </div>
 
