@@ -77,10 +77,10 @@ export default function Home() {
   </a>
 </div>
 
-        <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
+                <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
           © 2025 HedgeFuns Capital. Not licensed, not responsible, not serious.
         </footer>
-      </div>
-    </div>
+      </div>  {/* closes .max-w-3xl */}
+    </div>    {/* ✅ closes the full-screen container */}
   );
 }
