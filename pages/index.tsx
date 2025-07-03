@@ -88,6 +88,12 @@ export default function Home() {
             <span>🚀</span> Twitter
           </a>
         </div>
+<div className="pt-6 text-center">
+  <h3 className="text-lg font-semibold text-green-800">Official Token Address</h3>
+  <p className="text-sm text-gray-700 mt-1 break-all">
+    {process.env.NEXT_PUBLIC_COIN_ADDRESS || "Coming soon..."}
+  </p>
+</div>
 
         <footer className="text-sm text-gray-600 pt-8 border-t border-gray-300 mt-8">
           © 2025 HedgeFuns Capital. Not licensed, not responsible, not serious.
