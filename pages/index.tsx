@@ -91,7 +91,7 @@ export default function Home() {
 <div className="pt-6 text-center">
   <h3 className="text-lg font-semibold text-green-800">Official Token Address</h3>
   <p className="text-sm text-gray-700 mt-1 break-all">
-    {process.env.NEXT_PUBLIC_COIN_ADDRESS || "Coming soon..."}
+    {process.env.NEXT_PUBLIC_COIN_ADDRESS || "3sfLE37Sb9Ujb4hw3S98WPkq7UmFpMEu1xniQUAWpump"}
   </p>
 </div>
 
